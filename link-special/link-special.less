@@ -1,0 +1,18 @@
+@special-color: #f97641;
+
+.link_special {
+  color: @special-color;
+  padding-left: @padding-for-sprite;
+ }
+
+.link_special:before {
+  content: '';
+  width: 20px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-image: @sprite;
+  background-repeat: no-repeat;
+  background-position: 0px -110px;
+}

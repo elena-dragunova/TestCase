@@ -1,0 +1,125 @@
+html {
+  font-size: 100%;
+}
+body {
+  margin: 0 auto;
+}
+.main-menu {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.main-menu__item {
+  display: inline-block;
+  padding: 0.5em 1em;
+  position: relative;
+}
+.main-menu__link {
+  color: #aeafa5;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.main-menu__link:hover,
+.main-menu__link:focus,
+.main-menu__link:active {
+  color: #fdfef8;
+}
+.main-menu__link_active {
+  color: #fdfef8;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.link-advert,
+.link-register,
+.link-enter {
+  padding-left: 20px;
+}
+.link-advert:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  background-image: url("img/header-icons.png");
+  background-repeat: no-repeat;
+  background-position: -65px 5px;
+}
+.link-register:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  background-image: url("img/header-icons.png");
+  background-repeat: no-repeat;
+  background-position: 3px -65px;
+}
+.link-enter:before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  background-image: url("img/header-icons.png");
+  background-repeat: no-repeat;
+  background-position: 5px -33px;
+}
+.nav-menu {
+  background-color: #3a3a43;
+  display: flex;
+}
+.nav-menu__item {
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: 0 0.5em;
+  position: relative;
+}
+.nav-menu__link {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-link_active {
+  color: #ffcc00;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffcc00;
+}
+.ged-logo {
+  display: inline-block;
+  width: 200px;
+}
+.ged-logo_nav {
+  margin-left: 3.5em;
+}
+.absolut-logo:hover .cls-1 {
+  fill: #5ebcfb;
+}
+.banner_menu {
+  margin: 0.5em auto;
+}
+.link_dashed {
+  border-bottom: 2px dotted #fff;
+}
+.link_special {
+  color: #f97641;
+  padding-left: 20px;
+}
+.link_special:before {
+  content: '';
+  width: 20px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-image: url("img/header-icons.png");
+  background-repeat: no-repeat;
+  background-position: 0px -110px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

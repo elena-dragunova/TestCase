@@ -1,0 +1,26 @@
+@nav-bg-color: #3a3a43;
+@white: #fff;
+@active-color: #ffcc00;
+
+.nav-menu {
+  background-color: @nav-bg-color;
+  display: flex;
+}
+
+.nav-menu__item {
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: 0 0.5em;
+  position: relative;
+}
+
+.nav-menu__link {
+  color: @white;
+  text-decoration: none;
+}
+
+.nav-link_active {
+  color: @active-color;
+  padding-bottom: 10px;
+  border-bottom: 3px solid @active-color;
+} 
