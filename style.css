@@ -207,3 +207,34 @@ body {
 .nav-menu_hidden__list {
   padding-left: 5px;
 }
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content {
+  max-width: 976px;
+  min-width: 740px;
+}
+.sidebar {
+  width: 250px;
+  background-color: #ebebed;
+  margin: 0 1em;
+  padding: 2.5em 0;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #cccccc;
+}
+.sidebar-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-bottom: 1px solid #cccccc;
+}
+.sidebar-item__header {
+  margin: 10px 0;
+  text-align: left;
+}
+.sidebar-item__text {
+  margin: 0;
+}
