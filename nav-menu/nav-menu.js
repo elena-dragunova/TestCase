@@ -11,3 +11,16 @@ function getSticky() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+$(document).ready(function(){
+
+	//Кнопка меню
+
+	$(".toggle-menu").click(function(){
+		$(this).toggleClass("on");
+		$(".main-menu_hidden").slideToggle();
+		$(".nav-menu_hidden").slideToggle();
+		return false;
+	})
+})

@@ -2,15 +2,24 @@
 @white: #fff;
 @active-color: #ffcc00;
 
+@media only screen and (max-width : 1070px) {
+
+    .nav-menu {
+        display: none;
+    }
+}
+
 .nav-menu {
   background-color: @nav-bg-color;
   display: flex;
+  vertical-align: middle;
 }
 
 .nav-menu__item {
   display: inline-block;
   font-size: 1.25rem;
   padding: 0 0.5em;
+  margin-top: 1em;
   position: relative;
 }
 
