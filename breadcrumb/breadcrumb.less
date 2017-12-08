@@ -1,0 +1,26 @@
+@breadcrumb-color: #0072be;
+
+.breadcrumb {
+    list-style: none;
+    padding:0;
+}
+
+.breadcrumb__item {
+  display: inline;
+  color: @breadcrumb-color;
+}
+
+.breadcrumb__link {
+  color: @breadcrumb-color;
+  text-decoration: none;
+}
+
+.breadcrumb__link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb__item_active:before {
+    content: ">";
+    padding: 8px;
+    color: @breadcrumb-color;
+}
